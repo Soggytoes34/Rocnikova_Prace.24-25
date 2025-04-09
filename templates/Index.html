@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinoStar </title>
+    <link rel="stylesheet" href="/static/Style.css">
+</head>
+<body>
+    <header>
+        <div class="headerblock" id="logo"></div>
+        <div class="headerblock" > Lokace<div id="map"></div></div>
+        <div class="headerblock">Program</div>
+        <div class="headerblock">Občerstvění</div>
+        <div class="headerblock">Search</div>
+        <div class="headerblock" id="drop">Menu</div>
+
+    </header>
+
+<main>
+    <div class="mainbg">
+        <div class="KinoProgram">
+             <div class="KinoProgram-text">
+                Co letí
+            </div>
+        </div>
+    </div>
+    
+    <div class="filmy">
+       
+        <button class="arrow left-arrow">&#8592;</button>
+    <div class="filmy-slide"> 
+        <a href="http://127.0.0.1:5500/better_call_saul" ><div class="film" id="film1"></div>
+        <div class="film" id="film2"></div>
+        <div class="film" id="film3"></div>
+        <div class="film" id="film4"></div>
+        <div class="film" id="film5"></div>
+        <div class="film" id="film6"></div>
+        <div class="film" id="film7"></div>
+        <div class="film" id="film8"></div>
+        <div class="film" id="film9"></div>
+        <div class="film" id="film10"></div>
+        <div class="film" id="film11"></div>
+        <div class="film" id="film12"></div>   
+        <div class="film" id="film1"></div>
+        <div class="film" id="film2"></div>
+        <div class="film" id="film3"></div>
+        <div class="film" id="film4"></div>
+        <div class="film" id="film5"></div>
+        <div class="film" id="film6"></div>
+        <div class="film" id="film7"></div>
+        <div class="film" id="film8"></div>
+        <div class="film" id="film9"></div>
+        <div class="film" id="film10"></div>
+        <div class="film" id="film11"></div>
+        <div class="film" id="film12"></div>
+    </div>
+     
+        <button class="arrow right-arrow">&#8594;</button> 
+    </div>
+    <div class="predstaveni"></div>
+    <div class="jidlo"></div>
+    <div class="space"></div>
+</main>
+
+
+<footer>
+
+</footer>
+
+    <script type="text/javascript" src="{{url_for('static', filename='index.js')}}"></script>
+</body>
+</html>
